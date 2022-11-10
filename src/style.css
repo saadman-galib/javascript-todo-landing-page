@@ -13,7 +13,7 @@
 }
 
 .navbar-container {
-    @apply flex flex-row justify-between p-8 mx-auto w-4/5 justify-center items-center;
+    @apply flex flex-row justify-between py-8 mx-auto w-4/5 justify-center items-center;
 }
 
 .navbar-items ul {
@@ -97,8 +97,13 @@
 
 
 .hero-right-part {
-    @apply w-1/2 flex flex-col justify-center relative;
+    @apply w-1/2 flex flex-col justify-center;
 }
+
+.hero-right-part-img-container{
+    @apply ml-auto relative;
+}
+
 
 .hero-mobile-img{
     @apply absolute top-20 left-20 ;
