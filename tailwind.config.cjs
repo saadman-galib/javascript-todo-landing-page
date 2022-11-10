@@ -31,7 +31,10 @@ module.exports = {
             fontFamily: {
                 Inter: ["Inter", "sans-serif"],
                 Montserrat: ["Montserrat", "sans-serif"],
-            },
+        },
+        backgroundImage: {
+          'left': "url(/bg-left.png)"
+        }
         },
     },
     plugins: [],

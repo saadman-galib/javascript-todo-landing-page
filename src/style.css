@@ -36,8 +36,12 @@
     @apply fill-foreground transition ease-in duration-300;
 }
 
+.navbar-btn-container button{
+    @apply mx-2;
+}
+
 .main-btn {
-    @apply text-2xl font-bold p-5 rounded-lg mx-3 transition ease-in duration-100;
+    @apply text-2xl font-bold py-4 px-5 rounded-xl transition ease-in duration-100;
 }
 
 .white-btn {
@@ -46,4 +50,56 @@
 
 .blue-btn {
     @apply bg-accent text-primary hover:bg-opacity-70;
+}
+
+.hero-section-container{
+    @apply flex flex-row justify-center items-center min-h-[800px] mx-auto w-4/5;
+}
+
+.hero-left-part {
+    @apply flex flex-col w-1/2;
+}
+
+.hero-heading,
+.hero-text,
+.hero-btn-container,
+.hero-comment{
+    @apply w-auto mr-40;
+}
+
+.hero-heading h2{
+    @apply text-5xl font-bold text-foreground leading-[60px];
+}
+
+.hero-text p{
+    @apply text-gray-600 text-2xl font-medium mt-8 mb-14 leading-10;
+}
+
+.hero-text p span{
+    @apply font-bold ;
+}
+
+.hero-btn-container{
+    @apply my-8;
+}
+
+.hero-btn-container .main-btn{
+    @apply mr-7;
+}
+
+.hero-comment p{
+    @apply text-xl font-medium text-gray-600;
+}
+
+.hero-comment p span{
+    @apply text-xl font-bold;
+}
+
+
+.hero-right-part {
+    @apply w-1/2 flex flex-col justify-center relative;
+}
+
+.hero-mobile-img{
+    @apply absolute top-20 left-20 ;
 }
